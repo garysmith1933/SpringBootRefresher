@@ -20,15 +20,14 @@ public class StudentConfig {
                     "mariam.jamal@gmail.com",
                     LocalDate.of(2000, Month.JANUARY, 5),
                     21);
-            Student alex = new Student(
-                    1L,
-                    "Alex",
-                    "alex@gmail.com",
-                    LocalDate.of(2004, Month.JANUARY, 7),
-                    21);
+          Student alex = new Student(
+                  1L,
+                  "Alex",
+                  "alex@gmail.com",
+                  LocalDate.of(2004, Month.JANUARY, 7),
+                  21);
 
-            repository.saveAll(List.of(mariam, alex));
-                List.of(mariam, alex);
+          repository.saveAll(List.of(mariam, alex));
         };
     }
 }
